@@ -1,0 +1,30 @@
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .purpose {
+        display: flex;
+    }
+
+    .purpose-description-container {
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .symbol-container i {
+        font-size: 80px;
+    }
+
+    .person-container strong {
+        font-size: 34px;
+    }
+
+    .person-container span {
+        font-size: 24px;
+    }
+
+    .purpose-description-container {
+        margin-left: 50px;
+    }
+}

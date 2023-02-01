@@ -1,0 +1,126 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    -webkit-font-smoothing: antialiased;
+    margin: 0 20px;
+}
+
+strong, b {
+    font-weight: 900;
+}
+
+header, section, footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+/* Header */
+
+header {
+    color: #ffffff;
+    display: flex;
+    
+}
+
+.symbol-container i {
+    font-size: 60px;
+}
+
+.person-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.person-container strong {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.person-container span {
+    font-size: 20px;
+}
+
+/* Purpose */
+
+.purpose {
+    box-sizing: border-box;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Phooto Purpose */
+
+.purpose-photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.purpose-photo-container img {
+    width: 170px;
+}
+
+/* Description Purpose */
+
+.purpose-description-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.purpose-description-container h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #3CA0C6;
+    font-size: 18px;
+}
+
+.purpose-description-container p {
+    margin-top: 15px;
+    color: #3B3B3B;
+}
+
+.purpose-description-container div {
+    margin-top: 30px;
+    color: #969696;
+}
+
+/* My Goals */
+
+.goals {
+    color: #ffffff
+}
+
+.goals h1 {
+    margin-left: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.goals ul {
+    margin-top: 15px;
+}
+
+.goals li {
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    margin: 80px auto 30px;
+}
+
